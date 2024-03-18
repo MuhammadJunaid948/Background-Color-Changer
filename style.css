@@ -1,0 +1,38 @@
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.main-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+#gray{
+    background-color: gray;
+    margin: 2px;
+}
+#pink{
+    background-color: pink;
+    margin: 2px;
+}
+#blue{
+    background-color: blue;
+    margin: 2px;
+}
+#yellow{
+    background-color: yellow;
+    margin: 2px;
+}
